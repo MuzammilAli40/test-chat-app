@@ -88,14 +88,6 @@ const Login = () => {
             isLoading={loading}>
             Login
          </Button>
-         <Button variant={"solid"} colorScheme='red' width={"100%"}
-            onClick={() => {
-               setemail("guest@gmail.com");
-               setpassword("12345678");
-            }}
-         >
-            Login As a Guest
-         </Button>
       </VStack >
    )
 }
